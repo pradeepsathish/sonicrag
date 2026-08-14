@@ -1,9 +1,0 @@
-librosa
-soundfile
-numpy
-scipy
-scikit-learn
-
-# Only needed for clap_swap.py, on a machine with Hugging Face access:
-# transformers
-# torch
