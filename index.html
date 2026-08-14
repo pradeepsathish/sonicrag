@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SONIC — Natural Language Search for Sound</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --accent-green: #1DB954;
+        --accent-light-green: #1ed760;
+        --bg-black: #080808;
+        --bg-surface: #111111;
+        --bg-card: #161616;
+        --border-subtle: #222222;
+        --border-medium: #2a2a2a;
+        --text-primary: #ffffff;
+        --text-secondary: #9c9c9c;
+        --text-muted: #666666;
+        --accent-blue: #38bdf8;
+        --accent-purple: #c084fc;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+        background-color: var(--bg-black);
+        color: var(--text-primary);
+        font-family: 'Inter', sans-serif;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+    }
+    .ambient-glow {
+        position: fixed; top: -160px; left: 50%; transform: translateX(-50%);
+        width: 850px; height: 420px;
+        background: radial-gradient(circle, rgba(29,185,84,0.10) 0%, rgba(56,189,248,0.03) 50%, transparent 70%);
+        filter: blur(110px); pointer-events: none; z-index: 0;
+    }
+    .container { max-width: 960px; margin: 0 auto; padding: 28px 24px 100px 24px; position: relative; z-index: 1; }
+
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 0;
+          border-bottom: 1px solid var(--border-subtle); margin-bottom: 64px; }
+    .brand { display: flex; align-items: center; gap: 10px; }
+    .brand-mark { width: 8px; height: 8px; background: var(--accent-green); border-radius: 50%; box-shadow: 0 0 12px var(--accent-green); }
+    .brand-text { font-size: 0.95rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: 22px; }
+    .nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 0.8rem; font-weight: 600; transition: color 0.2s; }
+    .nav-links a:hover { color: #fff; }
+
+    .hero { margin-bottom: 96px; }
+    .hero-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; color: var(--text-muted);
+                     text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 18px; }
+    .hero h1 { font-size: 3rem; font-weight: 800; letter-spacing: -1.4px; line-height: 1.18; margin-bottom: 22px; max-width: 720px; }
+    .hero h1 .accent { color: var(--accent-green); }
+    .hero p { font-size: 1.08rem; color: var(--text-secondary); max-width: 580px; line-height: 1.75; }
+
+    .section { margin-bottom: 88px; }
+    .section-label { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent-light-green);
+                      text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; }
+    .section-title { font-size: 1.7rem; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 12px; }
+    .section-desc { font-size: 0.98rem; color: var(--text-secondary); max-width: 560px; margin-bottom: 40px; line-height: 1.7; }
+
+    /* How it works — flow diagram */
+    .flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; align-items: stretch; }
+    .flow-step { position: relative; padding: 0 14px; }
+    .flow-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 12px;
+                 padding: 24px 18px; height: 100%; transition: border-color 0.2s; }
+    .flow-card:hover { border-color: var(--border-medium); }
+    .flow-num { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--accent-light-green); margin-bottom: 14px; }
+    .flow-icon { width: 34px; height: 34px; margin-bottom: 16px; }
+    .flow-title { font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; }
+    .flow-body { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.55; }
+    .flow-arrow { position: absolute; top: 50%; right: -2px; transform: translateY(-50%); color: var(--border-medium); font-size: 1.2rem; z-index: 2; }
+    .flow-step:last-child .flow-arrow { display: none; }
+
+    /* Live demo */
+    .studio-frame { background: var(--bg-surface); border: 1px solid var(--border-medium); border-radius: 14px;
+                    overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.6); }
+    .studio-bar { background: var(--bg-card); padding: 12px 18px; display: flex; align-items: center; gap: 8px;
+                  border-bottom: 1px solid var(--border-subtle); }
+    .w-dot { width: 9px; height: 9px; border-radius: 50%; background: #333; }
+    .studio-search-bar { background: #1a1a1a; border: 1px solid var(--border-medium); border-radius: 10px;
+                          padding: 14px 18px; display: flex; align-items: center; gap: 12px; margin: 24px; }
+    .search-input { background: transparent; border: none; outline: none; font-family: 'Inter', sans-serif;
+                     font-size: 1rem; font-weight: 500; color: #fff; flex: 1; }
+    .search-go { background: var(--accent-green); color: #000; border: none; font-weight: 700; font-size: 0.82rem;
+                 padding: 9px 18px; border-radius: 8px; cursor: pointer; }
+    .preset-row { display: flex; gap: 8px; flex-wrap: wrap; padding: 0 24px 24px 24px; }
+    .preset-pill { font-size: 0.8rem; background: var(--bg-card); border: 1px solid var(--border-subtle);
+                    color: var(--text-secondary); padding: 6px 14px; border-radius: 16px; cursor: pointer; transition: 0.2s; }
+    .preset-pill:hover { border-color: var(--accent-green); color: #fff; }
+
+    .track-list { padding: 0 24px 28px 24px; }
+    .track-row { background: #1a1a1a; border: 1px solid var(--border-subtle); border-radius: 8px; padding: 12px 16px;
+                 display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+    .track-row.rank-1 { border-color: var(--accent-green); background: #172018; }
+    .rank-num { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-muted); width: 16px; }
+    .track-info { flex: 1; min-width: 0; }
+    .track-name { font-size: 0.87rem; font-weight: 600; color: #fff; }
+    .track-meta { font-size: 0.76rem; color: var(--text-muted); margin-top: 2px; }
+    audio { height: 30px; max-width: 150px; flex-shrink: 0; }
+    .match-pill { font-size: 0.72rem; font-weight: 700; color: var(--accent-light-green); background: #112015;
+                   border: 1px solid var(--accent-green); padding: 3px 10px; border-radius: 20px; flex-shrink: 0; }
+
+    /* Results / stats */
+    .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .stat-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 26px; text-align: center; }
+    .stat-val { font-family: 'JetBrains Mono', monospace; font-size: 2.1rem; font-weight: 700; color: #fff; }
+    .stat-label { font-size: 0.82rem; color: var(--text-secondary); margin-top: 8px; }
+
+    .cta-note { font-size: 0.85rem; color: var(--text-muted); margin-top: 20px; line-height: 1.6; }
+
+    footer { display: flex; justify-content: space-between; align-items: center; margin-top: 40px;
+             padding-top: 24px; border-top: 1px solid var(--border-subtle); font-size: 0.85rem; color: var(--text-muted); }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { color: var(--text-secondary); text-decoration: none; }
+    .footer-links a:hover { color: #fff; }
+
+    @media (max-width: 760px) {
+        .flow { grid-template-columns: 1fr 1fr; gap: 14px; }
+        .flow-arrow { display: none; }
+        .stat-grid { grid-template-columns: 1fr; }
+        .hero h1 { font-size: 2.1rem; }
+    }
+</style>
+</head>
+<body>
+<div class="ambient-glow"></div>
+<div class="container">
+
+    <nav>
+        <div class="brand">
+            <div class="brand-mark"></div>
+            <div class="brand-text">Sonic</div>
+        </div>
+        <div class="nav-links">
+            <a href="#how">How it works</a>
+            <a href="#demo">Demo</a>
+            <a href="#results">Results</a>
+            <a href="https://github.com/pradeepsathish/sonicrag">GitHub</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-eyebrow">An experiment in music search</div>
+        <h1>Describe the sound in your head. <span class="accent">Find it in seconds.</span></h1>
+        <p>Most music search still runs on tags and titles. SONIC explores a different idea: what if you could just describe a feeling — a key, a mood, a tempo, a texture — and have it understand you? This is a working prototype of that idea, built from scratch.</p>
+    </div>
+
+    <div class="section" id="how">
+        <div class="section-label">The idea</div>
+        <div class="section-title">How it works</div>
+        <div class="section-desc">Four steps, from a sentence to a ranked list of matching tracks.</div>
+        <div class="flow">
+            <div class="flow-step">
+                <div class="flow-card">
+                    <div class="flow-num">01</div>
+                    <svg class="flow-icon" viewBox="0 0 24 24" fill="none" stroke="#1ed760" stroke-width="1.6"><path d="M8 9h8M8 13h5" stroke-linecap="round"/><rect x="3" y="4" width="18" height="16" rx="3"/></svg>
+                    <div class="flow-title">Describe it</div>
+                    <div class="flow-body">Type how the track should feel — key, tempo, mood, texture — in plain language.</div>
+                </div>
+                <div class="flow-arrow">&rarr;</div>
+            </div>
+            <div class="flow-step">
+                <div class="flow-card">
+                    <div class="flow-num">02</div>
+                    <svg class="flow-icon" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>
+                    <div class="flow-title">Parse intent</div>
+                    <div class="flow-body">The sentence is broken into musical signals: root note, mode, tempo, brightness.</div>
+                </div>
+                <div class="flow-arrow">&rarr;</div>
+            </div>
+            <div class="flow-step">
+                <div class="flow-card">
+                    <div class="flow-num">03</div>
+                    <svg class="flow-icon" viewBox="0 0 24 24" fill="none" stroke="#c084fc" stroke-width="1.6"><path d="M3 12h4l2-7 4 14 2-7h6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <div class="flow-title">Match against audio</div>
+                    <div class="flow-body">Every track is pre-analyzed for the same signals, extracted directly from the waveform.</div>
+                </div>
+                <div class="flow-arrow">&rarr;</div>
+            </div>
+            <div class="flow-step">
+                <div class="flow-card">
+                    <div class="flow-num">04</div>
+                    <svg class="flow-icon" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="1.6"><path d="M4 18V10M10 18V4M16 18v-7M22 18v-3" stroke-linecap="round"/></svg>
+                    <div class="flow-title">Rank &amp; return</div>
+                    <div class="flow-body">Tracks are scored and ordered by how closely they match what you described.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="demo">
+        <div class="section-label">Try it</div>
+        <div class="section-title">Live demo</div>
+        <div class="section-desc">Real audio, analyzed and searchable right now. Type a query or try a preset below.</div>
+
+        <div class="studio-frame">
+            <div class="studio-bar">
+                <div class="w-dot"></div><div class="w-dot"></div><div class="w-dot"></div>
+            </div>
+            <div class="studio-search-bar">
+                <input id="live-search-input" class="search-input" type="text" value="melancholic nylon guitar in D minor" />
+                <button class="search-go" onclick="updateUI(document.getElementById('live-search-input').value)">Search</button>
+            </div>
+            <div class="preset-row">
+                <div class="preset-pill" onclick="setQuery('melancholic nylon guitar in D minor')">melancholic guitar, D minor</div>
+                <div class="preset-pill" onclick="setQuery('warm rhodes major key around 108 bpm')">warm rhodes, 108 bpm</div>
+                <div class="preset-pill" onclick="setQuery('punchy bright synth 140 bpm')">bright synth, 140 bpm</div>
+                <div class="preset-pill" onclick="setQuery('deep sub bass minor')">deep sub bass</div>
+            </div>
+            <div class="track-list" id="track-container"></div>
+        </div>
+        <div class="cta-note">Today, the query is understood with hand-built rules. The next step is swapping that for a learned model so it understands open-ended language, not just keywords.</div>
+    </div>
+
+    <div class="section" id="results">
+        <div class="section-label">Measured</div>
+        <div class="section-title">How well it performs</div>
+        <div class="section-desc">Evaluated against a set of hand-built queries with known correct answers.</div>
+        <div class="stat-grid">
+            <div class="stat-card"><div class="stat-val">92.7%</div><div class="stat-label">Ranking quality (NDCG@5)</div></div>
+            <div class="stat-card"><div class="stat-val">87.9%</div><div class="stat-label">First-result accuracy (MRR)</div></div>
+            <div class="stat-card"><div class="stat-val">93.8%</div><div class="stat-label">Key detection accuracy</div></div>
+        </div>
+    </div>
+
+    <footer>
+        <div>Built by Pradeep Sathish</div>
+        <div class="footer-links">
+            <a href="https://github.com/pradeepsathish/sonicrag">GitHub</a>
+            <a href="mailto:pradeepsathishsv@gmail.com">Contact</a>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+const TRACKS = [{"file":"clip_000_As_major_72bpm_nylon_guitar.wav","root":"A#","mode":"major","bpm":72,"timbre":"nylon_guitar","detected_root":"A#","detected_mode":"major","detected_tempo":71.8,"spectral_centroid":443.3},{"file":"clip_001_C_major_132bpm_nylon_guitar.wav","root":"C","mode":"major","bpm":132,"timbre":"nylon_guitar","detected_root":"C","detected_mode":"major","detected_tempo":129.2,"spectral_centroid":268.4},{"file":"clip_002_E_major_84bpm_nylon_guitar.wav","root":"E","mode":"major","bpm":84,"timbre":"nylon_guitar","detected_root":"E","detected_mode":"major","detected_tempo":83.4,"spectral_centroid":333.5},{"file":"clip_003_Ds_major_84bpm_nylon_guitar.wav","root":"D#","mode":"major","bpm":84,"timbre":"nylon_guitar","detected_root":"G","detected_mode":"minor","detected_tempo":83.4,"spectral_centroid":322.0},{"file":"clip_004_B_major_72bpm_nylon_guitar.wav","root":"B","mode":"major","bpm":72,"timbre":"nylon_guitar","detected_root":"B","detected_mode":"major","detected_tempo":71.8,"spectral_centroid":481.5},{"file":"clip_005_As_major_132bpm_nylon_guitar.wav","root":"A#","mode":"major","bpm":132,"timbre":"nylon_guitar","detected_root":"A#","detected_mode":"major","detected_tempo":66.3,"spectral_centroid":462.0},{"file":"clip_006_Gs_major_72bpm_warm_rhodes.wav","root":"G#","mode":"major","bpm":72,"timbre":"warm_rhodes","detected_root":"G#","detected_mode":"major","detected_tempo":71.8,"spectral_centroid":450.0},{"file":"clip_007_A_major_108bpm_warm_rhodes.wav","root":"A","mode":"major","bpm":108,"timbre":"warm_rhodes","detected_root":"C#","detected_mode":"minor","detected_tempo":107.7,"spectral_centroid":504.4},{"file":"clip_008_C_major_72bpm_warm_rhodes.wav","root":"C","mode":"major","bpm":72,"timbre":"warm_rhodes","detected_root":"C","detected_mode":"major","detected_tempo":71.8,"spectral_centroid":296.9},{"file":"clip_009_Cs_major_84bpm_warm_rhodes.wav","root":"C#","mode":"major","bpm":84,"timbre":"warm_rhodes","detected_root":"C#","detected_mode":"major","detected_tempo":83.4,"spectral_centroid":313.6},{"file":"clip_010_Ds_major_120bpm_warm_rhodes.wav","root":"D#","mode":"major","bpm":120,"timbre":"warm_rhodes","detected_root":"D#","detected_mode":"major","detected_tempo":117.5,"spectral_centroid":338.3},{"file":"clip_011_A_major_72bpm_warm_rhodes.wav","root":"A","mode":"major","bpm":72,"timbre":"warm_rhodes","detected_root":"A","detected_mode":"major","detected_tempo":71.8,"spectral_centroid":462.7},{"file":"clip_012_Gs_major_84bpm_bright_synth.wav","root":"G#","mode":"major","bpm":84,"timbre":"bright_synth","detected_root":"G#","detected_mode":"major","detected_tempo":83.4,"spectral_centroid":346.5},{"file":"clip_013_B_major_132bpm_bright_synth.wav","root":"B","mode":"major","bpm":132,"timbre":"bright_synth","detected_root":"D#","detected_mode":"minor","detected_tempo":129.2,"spectral_centroid":427.8},{"file":"clip_014_B_major_120bpm_bright_synth.wav","root":"B","mode":"major","bpm":120,"timbre":"bright_synth","detected_root":"B","detected_mode":"major","detected_tempo":60.1,"spectral_centroid":408.8},{"file":"clip_015_Fs_major_84bpm_bright_synth.wav","root":"F#","mode":"major","bpm":84,"timbre":"bright_synth","detected_root":"F#","detected_mode":"major","detected_tempo":83.4,"spectral_centroid":311.1},{"file":"clip_016_G_major_120bpm_bright_synth.wav","root":"G","mode":"major","bpm":120,"timbre":"bright_synth","detected_root":"G","detected_mode":"major","detected_tempo":117.5,"spectral_centroid":331.6},{"file":"clip_017_E_major_140bpm_bright_synth.wav","root":"E","mode":"major","bpm":140,"timbre":"bright_synth","detected_root":"E","detected_mode":"major","detected_tempo":69.8,"spectral_centroid":273.9},{"file":"clip_018_C_major_140bpm_sub_bass.wav","root":"C","mode":"major","bpm":140,"timbre":"sub_bass","detected_root":"C","detected_mode":"major","detected_tempo":143.6,"spectral_centroid":275.5},{"file":"clip_019_D_major_132bpm_sub_bass.wav","root":"D","mode":"major","bpm":132,"timbre":"sub_bass","detected_root":"D","detected_mode":"major","detected_tempo":136.0,"spectral_centroid":278.5},{"file":"clip_020_Fs_major_96bpm_sub_bass.wav","root":"F#","mode":"major","bpm":96,"timbre":"sub_bass","detected_root":"F#","detected_mode":"major","detected_tempo":95.7,"spectral_centroid":340.5},{"file":"clip_021_E_major_84bpm_sub_bass.wav","root":"E","mode":"major","bpm":84,"timbre":"sub_bass","detected_root":"E","detected_mode":"major","detected_tempo":83.4,"spectral_centroid":313.8},{"file":"clip_022_Ds_major_140bpm_sub_bass.wav","root":"D#","mode":"major","bpm":140,"timbre":"sub_bass","detected_root":"D#","detected_mode":"major","detected_tempo":143.6,"spectral_centroid":315.8},{"file":"clip_023_F_major_72bpm_sub_bass.wav","root":"F","mode":"major","bpm":72,"timbre":"sub_bass","detected_root":"F","detected_mode":"major","detected_tempo":71.8,"spectral_centroid":320.7},{"file":"clip_024_Cs_minor_108bpm_nylon_guitar.wav","root":"C#","mode":"minor","bpm":108,"timbre":"nylon_guitar","detected_root":"C#","detected_mode":"minor","detected_tempo":107.7,"spectral_centroid":269.7},{"file":"clip_025_Cs_minor_96bpm_nylon_guitar.wav","root":"C#","mode":"minor","bpm":96,"timbre":"nylon_guitar","detected_root":"C#","detected_mode":"minor","detected_tempo":95.7,"spectral_centroid":275.0},{"file":"clip_026_F_minor_120bpm_nylon_guitar.wav","root":"F","mode":"minor","bpm":120,"timbre":"nylon_guitar","detected_root":"F","detected_mode":"minor","detected_tempo":117.5,"spectral_centroid":351.7},{"file":"clip_027_E_minor_140bpm_nylon_guitar.wav","root":"E","mode":"minor","bpm":140,"timbre":"nylon_guitar","detected_root":"E","detected_mode":"minor","detected_tempo":143.6,"spectral_centroid":329.4},{"file":"clip_028_C_minor_132bpm_nylon_guitar.wav","root":"C","mode":"minor","bpm":132,"timbre":"nylon_guitar","detected_root":"C","detected_mode":"minor","detected_tempo":129.2,"spectral_centroid":258.4},{"file":"clip_029_G_minor_120bpm_nylon_guitar.wav","root":"G","mode":"minor","bpm":120,"timbre":"nylon_guitar","detected_root":"G","detected_mode":"minor","detected_tempo":117.5,"spectral_centroid":374.5},{"file":"clip_030_Cs_minor_108bpm_warm_rhodes.wav","root":"C#","mode":"minor","bpm":108,"timbre":"warm_rhodes","detected_root":"C#","detected_mode":"minor","detected_tempo":107.7,"spectral_centroid":309.2},{"file":"clip_031_Cs_minor_120bpm_warm_rhodes.wav","root":"C#","mode":"minor","bpm":120,"timbre":"warm_rhodes","detected_root":"C#","detected_mode":"minor","detected_tempo":117.5,"spectral_centroid":338.3},{"file":"clip_032_E_minor_140bpm_warm_rhodes.wav","root":"E","mode":"minor","bpm":140,"timbre":"warm_rhodes","detected_root":"E","detected_mode":"minor","detected_tempo":143.6,"spectral_centroid":390.5},{"file":"clip_033_As_minor_120bpm_warm_rhodes.wav","root":"A#","mode":"minor","bpm":120,"timbre":"warm_rhodes","detected_root":"A#","detected_mode":"minor","detected_tempo":117.5,"spectral_centroid":506.3},{"file":"clip_034_F_minor_120bpm_warm_rhodes.wav","root":"F","mode":"minor","bpm":120,"timbre":"warm_rhodes","detected_root":"F","detected_mode":"minor","detected_tempo":117.5,"spectral_centroid":418.9},{"file":"clip_035_Ds_minor_132bpm_warm_rhodes.wav","root":"D#","mode":"minor","bpm":132,"timbre":"warm_rhodes","detected_root":"D#","detected_mode":"minor","detected_tempo":129.2,"spectral_centroid":368.1},{"file":"clip_036_Cs_minor_72bpm_bright_synth.wav","root":"C#","mode":"minor","bpm":72,"timbre":"bright_synth","detected_root":"C#","detected_mode":"minor","detected_tempo":71.8,"spectral_centroid":238.0},{"file":"clip_037_As_minor_84bpm_bright_synth.wav","root":"A#","mode":"minor","bpm":84,"timbre":"bright_synth","detected_root":"A#","detected_mode":"minor","detected_tempo":83.4,"spectral_centroid":360.8},{"file":"clip_038_E_minor_72bpm_bright_synth.wav","root":"E","mode":"minor","bpm":72,"timbre":"bright_synth","detected_root":"E","detected_mode":"minor","detected_tempo":71.8,"spectral_centroid":266.1},{"file":"clip_039_Ds_minor_140bpm_bright_synth.wav","root":"D#","mode":"minor","bpm":140,"timbre":"bright_synth","detected_root":"D#","detected_mode":"minor","detected_tempo":143.6,"spectral_centroid":265.4},{"file":"clip_040_Cs_minor_108bpm_bright_synth.wav","root":"C#","mode":"minor","bpm":108,"timbre":"bright_synth","detected_root":"C#","detected_mode":"minor","detected_tempo":53.8,"spectral_centroid":232.2},{"file":"clip_041_E_minor_108bpm_bright_synth.wav","root":"E","mode":"minor","bpm":108,"timbre":"bright_synth","detected_root":"E","detected_mode":"minor","detected_tempo":107.7,"spectral_centroid":276.2},{"file":"clip_042_As_minor_140bpm_sub_bass.wav","root":"A#","mode":"minor","bpm":140,"timbre":"sub_bass","detected_root":"A#","detected_mode":"minor","detected_tempo":136.0,"spectral_centroid":423.5},{"file":"clip_043_F_minor_84bpm_sub_bass.wav","root":"F","mode":"minor","bpm":84,"timbre":"sub_bass","detected_root":"F","detected_mode":"minor","detected_tempo":83.4,"spectral_centroid":347.9},{"file":"clip_044_F_minor_96bpm_sub_bass.wav","root":"F","mode":"minor","bpm":96,"timbre":"sub_bass","detected_root":"F","detected_mode":"minor","detected_tempo":95.7,"spectral_centroid":321.9},{"file":"clip_045_Ds_minor_132bpm_sub_bass.wav","root":"D#","mode":"minor","bpm":132,"timbre":"sub_bass","detected_root":"D#","detected_mode":"minor","detected_tempo":129.2,"spectral_centroid":342.6},{"file":"clip_046_E_minor_132bpm_sub_bass.wav","root":"E","mode":"minor","bpm":132,"timbre":"sub_bass","detected_root":"E","detected_mode":"minor","detected_tempo":66.3,"spectral_centroid":332.8},{"file":"clip_047_As_minor_132bpm_sub_bass.wav","root":"A#","mode":"minor","bpm":132,"timbre":"sub_bass","detected_root":"A#","detected_mode":"minor","detected_tempo":129.2,"spectral_centroid":427.9}];
+const NOTES = ["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"];
+const MOOD_TO_CENTROID = {melancholic:900,warm:900,dark:700,mellow:850,bright:3500,punchy:2800,sharp:3200,airy:4000,sub:200,deep:300};
+
+function parseQuery(text){
+    const t = text.toLowerCase();
+    let root=null, mode=null;
+    let m = t.match(/\b([a-g]#?)\s*(major|minor|maj|min)\b/);
+    if(m){
+        root = NOTES.find(n=>n.toLowerCase()===m[1]) || null;
+        mode = m[2].startsWith("min") ? "minor" : "major";
+    } else {
+        let m2 = t.match(/\b(?:in|key of)\s+([a-g]#?)\b/);
+        if(m2) root = NOTES.find(n=>n.toLowerCase()===m2[1]) || null;
+        if(t.includes("minor")) mode="minor"; else if(t.includes("major")) mode="major";
+    }
+    let bpmMatch = t.match(/(\d{2,3})\s*bpm/);
+    let bpm = bpmMatch ? parseFloat(bpmMatch[1]) : null;
+    let hits = Object.keys(MOOD_TO_CENTROID).filter(k=>t.includes(k)).map(k=>MOOD_TO_CENTROID[k]);
+    let centroid = hits.length ? hits.reduce((a,b)=>a+b,0)/hits.length : null;
+    return {root, mode, bpm, centroid};
+}
+
+function scoreTrack(tr, q){
+    let chromaScore;
+    if(q.root !== null){
+        const qIdx = NOTES.indexOf(q.root);
+        const trackIdx = NOTES.indexOf(tr.detected_root);
+        const fifthsQ = (qIdx*7)%12, fifthsT = (trackIdx*7)%12;
+        const dist = Math.min(Math.abs(fifthsQ-fifthsT), 12-Math.abs(fifthsQ-fifthsT));
+        const modeMatch = (q.mode===null || tr.detected_mode===q.mode) ? 1.0 : 0.6;
+        chromaScore = (1 - dist/6) * modeMatch;
+    } else chromaScore = 0.5;
+    let tempoScore = q.bpm!==null ? Math.exp(-((tr.detected_tempo-q.bpm)**2)/(2*15**2)) : 0.5;
+    let brightScore = q.centroid!==null ? Math.exp(-((tr.spectral_centroid-q.centroid)**2)/(2*1200**2)) : 0.5;
+    const score = 0.5*chromaScore + 0.3*tempoScore + 0.2*brightScore;
+    return score;
+}
+
+function search(text, topK=5){
+    const q = parseQuery(text);
+    const scored = TRACKS.map(tr => Object.assign({}, tr, {score: scoreTrack(tr, q)}));
+    scored.sort((a,b)=>b.score-a.score);
+    return scored.slice(0, topK);
+}
+
+function setQuery(q){
+    document.getElementById('live-search-input').value = q;
+    updateUI(q);
+}
+
+function updateUI(query){
+    const results = search(query);
+    const container = document.getElementById('track-container');
+    container.innerHTML = '';
+    results.forEach((r, i) => {
+        const row = document.createElement('div');
+        row.className = 'track-row' + (i===0 ? ' rank-1' : '');
+        const pct = Math.round(r.score*100);
+        row.innerHTML =
+            '<div class="rank-num">' + (i+1) + '</div>' +
+            '<div class="track-info">' +
+                '<div class="track-name">' + r.file + '</div>' +
+                '<div class="track-meta">' + r.detected_root + ' ' + r.detected_mode + ' &middot; ' + r.detected_tempo + ' bpm &middot; ' + r.timbre.replace('_',' ') + '</div>' +
+            '</div>' +
+            '<audio controls preload="none" src="data/audio/' + r.file + '"></audio>' +
+            '<div class="match-pill">' + pct + '% match</div>';
+        container.appendChild(row);
+    });
+}
+
+updateUI(document.getElementById('live-search-input').value);
+</script>
+</body>
+</html>
