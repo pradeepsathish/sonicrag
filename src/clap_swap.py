@@ -50,7 +50,7 @@ def build_real_index(audio_paths, out_path="clap_index.npz"):
     Replaces the rule-based feature vectors in data/features.npz with
     real CLAP audio embeddings. Once you have this, cosine similarity
     search against encode_text() output is genuine cross-modal retrieval
-    -- the actual thing the original SonicRAG dossier claimed to have.
+    -- the actual thing the original dossier claimed to have.
     """
     import librosa
     encoder = ClapEncoder()

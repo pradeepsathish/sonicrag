@@ -1,10 +1,10 @@
 # ALAI — Working Prototype
 
-> "ALAI" (Tamil for "wave") is the public/brand name; "SonicRAG" is retained as the internal name for the retrieval architecture specifically.
+> "ALAI" is Tamil for "wave."
 
 A real, runnable audio retrieval pipeline: text query → parsed intent →
 weighted similarity search → ranked results, evaluated against ground
-truth. Built to replace the original SonicRAG dossier's unmeasured
+truth. Built to replace an original, unmeasured dossier's
 benchmark table with numbers that actually came from running code —
 and, as of this update, from running that code against real, human-verified
 audio, not just synthesized test data.

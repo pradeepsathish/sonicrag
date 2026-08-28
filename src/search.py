@@ -95,7 +95,7 @@ def encode_query_text(text):
     return parsed, chroma_part
 
 
-class SonicSearchEngine:
+class ALAISearchEngine:
     """
     Multi-field weighted retrieval instead of one contaminated dense-vector
     cosine. This is the honest fix for the bug above: a query only has
@@ -179,7 +179,7 @@ class SonicSearchEngine:
 
 
 def main():
-    engine = SonicSearchEngine()
+    engine = ALAISearchEngine()
     demo_queries = [
         "melancholic nylon guitar in D minor",
         "warm rhodes chords major key around 108 bpm",

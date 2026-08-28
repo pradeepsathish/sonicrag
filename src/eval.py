@@ -14,7 +14,7 @@ query's stated constraints it satisfies.
 import json
 import os
 import numpy as np
-from search import SonicSearchEngine
+from search import ALAISearchEngine
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 META_PATH = os.path.join(DATA_DIR, "metadata_enriched.json")
@@ -91,7 +91,7 @@ def reciprocal_rank(ranked_relevances):
 
 
 def main():
-    engine = SonicSearchEngine()
+    engine = ALAISearchEngine()
     with open(META_PATH) as f:
         metadata = json.load(f)
     file_to_entry = {m["file"]: m for m in metadata}
@@ -113,7 +113,7 @@ def main():
     print("-" * 100)
     print(f"\nMean NDCG@5 across {len(EVAL_QUERIES)} queries: {np.mean(ndcgs):.3f}")
     print(f"Mean MRR across {len(EVAL_QUERIES)} queries:     {np.mean(mrrs):.3f}")
-    print(f"\n(For comparison, the original SonicRAG dossier CLAIMED "
+    print(f"\n(For comparison, the original dossier CLAIMED "
           f"NDCG@10 of 0.891 and MRR of 0.842 with no code behind those "
           f"numbers. These are real, computed, reproducible instead.)")
 
