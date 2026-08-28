@@ -1,0 +1,5445 @@
+{
+  "n_total": 604,
+  "n_exact": 269,
+  "n_root_only": 347,
+  "exact_accuracy_pct": 44.5,
+  "root_only_accuracy_pct": 57.5,
+  "per_track": [
+    {
+      "track_id": "1004923.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1007941.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "10089.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1009960.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "101069.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1017921.LOFI",
+      "true_root": "B",
+      "true_mode": "major",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1026478.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1033148.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1034795.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1037507.LOFI",
+      "true_root": "G",
+      "true_mode": "major",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1041574.LOFI",
+      "true_root": "G#",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1043194.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1052744.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1056896.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1074548.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1075123.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1092676.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1103512.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1105632.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1140027.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1149778.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1161234.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1161249.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1164898.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1178656.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1193612.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1194720.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1198688.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1206025.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1209745.LOFI",
+      "true_root": "A#",
+      "true_mode": "major",
+      "detected_root": "A#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1224698.LOFI",
+      "true_root": "G",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1234668.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1234669.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1234670.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1234748.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1234749.LOFI",
+      "true_root": "A#",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1234750.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1234751.LOFI",
+      "true_root": "A#",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1234752.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1257593.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1298595.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1316308.LOFI",
+      "true_root": "G",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1353830.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1356281.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1389887.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1406309.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1415239.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1442809.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1468437.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1474122.LOFI",
+      "true_root": "G#",
+      "true_mode": "major",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1486770.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1494159.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1549964.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1568217.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1574723.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1575015.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1611446.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1614715.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1626779.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1650933.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1650934.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1652412.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1669939.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1673811.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1678455.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1681074.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1681077.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1681085.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1682815.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1690921.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1695408.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1706844.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1725800.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1757071.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1763782.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1771576.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1771577.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1776378.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1781139.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1785226.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1787061.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1792026.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1792100.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1792506.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1795653.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1796518.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1803909.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1808022.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1809174.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1814469.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1822087.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1822502.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1837440.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1850984.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1856889.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1864037.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1880732.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1904501.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "190477.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "191347.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1922470.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1927655.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1939732.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1944125.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1948785.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1949099.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1950170.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1960032.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1964905.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1970992.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1978917.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1981501.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1982269.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1983975.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "1984204.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1986370.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1990297.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "1991458.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2006103.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2007977.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2014445.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2018991.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2024026.LOFI",
+      "true_root": "G",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2025670.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2026524.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2029598.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2031094.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2031096.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "203493.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2046342.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2047796.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2048054.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2048940.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2049680.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2051166.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2052966.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2053495.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2054968.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "205597.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2059625.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2069519.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2070773.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2075331.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "208158.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2081732.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "209206.LOFI",
+      "true_root": "G",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2434664.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2435861.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2436276.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2436729.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2438899.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2440193.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2447748.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2448121.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2666332.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2666528.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2667501.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2673157.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2673251.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2673252.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2673254.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2676506.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2680040.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2725284.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "2725286.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2725289.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2725290.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "272788.LOFI",
+      "true_root": "A#",
+      "true_mode": "major",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2741219.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2760321.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "2996293.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3003894.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3005030.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3014118.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3015217.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3024384.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3033991.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "305771.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3069201.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3070298.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3076768.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3093661.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3095708.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3114501.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3116329.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3129757.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3133794.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3137686.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3150078.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3151513.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3165770.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3172588.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3178147.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3178155.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3186615.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3211603.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3211733.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3228297.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3228649.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3228698.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3229038.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3232851.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3233653.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3246151.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3249708.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3250632.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3257231.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3260121.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3262951.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3270413.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3271514.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3272873.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3274260.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3275147.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3284384.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3288636.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3298344.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3302298.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3302451.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3313070.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3313145.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3317232.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3317417.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3319290.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3319589.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3324024.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3334441.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3334471.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3338963.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3339291.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3344291.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3345479.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3349486.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3349967.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3354212.LOFI",
+      "true_root": "F#",
+      "true_mode": "major",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3356535.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3361547.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3361909.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3363196.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3363602.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3364661.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3367551.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3367553.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3367555.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3368117.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3372108.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3377323.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3379400.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3383171.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3387619.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3389317.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3390952.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3395666.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3397932.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3400782.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3402886.LOFI",
+      "true_root": "F#",
+      "true_mode": "major",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3402887.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3402888.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3409548.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3415063.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3415421.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "341832.LOFI",
+      "true_root": "G",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3424038.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3426022.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3426285.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3428673.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3432247.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3434746.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3443052.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3450181.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3467773.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3478184.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3479363.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3480108.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3482733.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3516363.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3517044.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3518768.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3518921.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3519499.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3523229.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3524408.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3526370.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3533310.LOFI",
+      "true_root": "B",
+      "true_mode": "major",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3533740.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3533956.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3535112.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3542099.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3545728.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3561744.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3568438.LOFI",
+      "true_root": "G#",
+      "true_mode": "major",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3568459.LOFI",
+      "true_root": "G",
+      "true_mode": "major",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3568465.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3571314.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3572701.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3572702.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3574815.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3589347.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3590070.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3596904.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3602280.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3602282.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3625299.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3625787.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3625788.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3628628.LOFI",
+      "true_root": "B",
+      "true_mode": "major",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3629467.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3629920.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3633852.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3638836.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3641166.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3642384.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3642409.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3648814.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3661550.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3667215.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3667683.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3668409.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3681890.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3686302.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3687442.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3695262.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3696226.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3701975.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3703893.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3706570.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3713557.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3725440.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3740062.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3753635.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3757006.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "A#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3759800.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "376240.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3767408.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3772753.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3773561.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3776015.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3789116.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3789117.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3792959.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3794008.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3813682.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3822226.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3826491.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3829561.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3833050.LOFI",
+      "true_root": "C#",
+      "true_mode": "major",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3836490.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3841927.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3858289.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3858324.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3858331.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3873733.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3892740.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3914630.LOFI",
+      "true_root": "F#",
+      "true_mode": "major",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3930672.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3935095.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3938837.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3939148.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3949799.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3954078.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3954191.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3958396.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3958397.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3958398.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3958755.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3958861.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3963180.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3967462.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3969868.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3971416.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3979989.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3980001.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "398124.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3986537.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "3992511.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3995054.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "3997722.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4002242.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "400259.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4014747.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4014749.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4018247.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4021075.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4045225.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4048367.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4049579.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4060751.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4062807.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4066359.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4066435.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4086909.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4088665.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4091478.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4093657.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4093908.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4098993.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4104235.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4107957.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4125044.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4153238.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4162405.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4166222.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4167325.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4173942.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4186982.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4188100.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4191993.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4200490.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4202763.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4206954.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4207145.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "423054.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4231980.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4234612.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4254573.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4262569.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4275052.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4277742.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4284574.LOFI",
+      "true_root": "G",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4293025.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4297635.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4302974.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4315749.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4320199.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4325645.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4325646.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4327665.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4328155.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4328388.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "435443.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4359736.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4360488.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4361260.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4364668.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4366506.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4371042.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4399289.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4424988.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4433083.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4440292.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4450726.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4452003.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4452122.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4453556.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4476610.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4483817.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4485436.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4498388.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4505122.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4508323.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4540971.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4566667.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4573655.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4596347.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4609349.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4615188.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4657878.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4661735.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4666231.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4666417.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4688833.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4693198.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4702235.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4723905.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "472626.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4735775.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4755348.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4758620.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4779657.LOFI",
+      "true_root": "A#",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4786362.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4802314.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4815758.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4817706.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4823611.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4824580.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4827420.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4834156.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4840289.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4842349.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4846004.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4846007.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4857650.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4863806.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4868146.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4873286.LOFI",
+      "true_root": "F#",
+      "true_mode": "major",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4877006.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4898445.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4898455.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4900482.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4917941.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4920936.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4926785.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4927548.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4927724.LOFI",
+      "true_root": "G#",
+      "true_mode": "major",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4927725.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4928111.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4934196.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4934251.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4935536.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4939812.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4941208.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4945105.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4950604.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4950614.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4953926.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4955428.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4955940.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4956417.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4957129.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "495905.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4960012.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4965571.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4969568.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4970082.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4981539.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4981541.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "4983645.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4983728.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4992190.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4995394.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4995597.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4996031.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4996389.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4997194.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "4997222.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5005412.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5009084.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5013063.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5013910.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5015793.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5026646.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5030517.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5035524.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5036476.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5039015.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5039016.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5048249.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5048263.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5049808.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5070608.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5073839.LOFI",
+      "true_root": "B",
+      "true_mode": "major",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5078640.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5079918.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5081990.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5085261.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5103693.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "511348.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5120298.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5159593.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5171396.LOFI",
+      "true_root": "G#",
+      "true_mode": "major",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5263098.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5264038.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5276059.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5302340.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5304804.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5308082.LOFI",
+      "true_root": "C#",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5362946.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5417860.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5431709.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "5450838.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "571009.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "5740146.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "582991.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "611797.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "61415.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "631240.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "631883.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "634032.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "C",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "667508.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "671546.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "677299.LOFI",
+      "true_root": "F#",
+      "true_mode": "major",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "678406.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "682724.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "74982.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "774871.LOFI",
+      "true_root": "B",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "774874.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "774875.LOFI",
+      "true_root": "F#",
+      "true_mode": "minor",
+      "detected_root": "B",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "781373.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "781995.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "C",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "796860.LOFI",
+      "true_root": "G#",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "814290.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "814505.LOFI",
+      "true_root": "A",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "822664.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "835903.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "839886.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "846900.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "847422.LOFI",
+      "true_root": "A",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "853834.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "E",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "873455.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "877345.LOFI",
+      "true_root": "D#",
+      "true_mode": "major",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "883724.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "890568.LOFI",
+      "true_root": "E",
+      "true_mode": "minor",
+      "detected_root": "A",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "891993.LOFI",
+      "true_root": "D",
+      "true_mode": "major",
+      "detected_root": "D",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "896478.LOFI",
+      "true_root": "B",
+      "true_mode": "minor",
+      "detected_root": "F#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "903963.LOFI",
+      "true_root": "F",
+      "true_mode": "major",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "907837.LOFI",
+      "true_root": "G",
+      "true_mode": "minor",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": true,
+      "root_only_match": true
+    },
+    {
+      "track_id": "923397.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "945256.LOFI",
+      "true_root": "D#",
+      "true_mode": "minor",
+      "detected_root": "A#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "973819.LOFI",
+      "true_root": "F",
+      "true_mode": "minor",
+      "detected_root": "F",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": true
+    },
+    {
+      "track_id": "975137.LOFI",
+      "true_root": "C",
+      "true_mode": "minor",
+      "detected_root": "C#",
+      "detected_mode": "major",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "975138.LOFI",
+      "true_root": "D",
+      "true_mode": "minor",
+      "detected_root": "D#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "981591.LOFI",
+      "true_root": "A#",
+      "true_mode": "minor",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "992081.LOFI",
+      "true_root": "E",
+      "true_mode": "major",
+      "detected_root": "G#",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    },
+    {
+      "track_id": "997308.LOFI",
+      "true_root": "C",
+      "true_mode": "major",
+      "detected_root": "G",
+      "detected_mode": "minor",
+      "exact_match": false,
+      "root_only_match": false
+    }
+  ]
+}

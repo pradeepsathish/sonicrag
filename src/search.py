@@ -106,14 +106,15 @@ class SonicSearchEngine:
     hybrid BM25 + vector search) use this same weighted-fusion idea for
     the same reason: heterogeneous signal strength per field.
     """
-    def __init__(self, chroma_weight=0.5, tempo_weight=0.3, brightness_weight=0.2):
-        data = np.load(FEATURES_PATH)
+    def __init__(self, chroma_weight=0.5, tempo_weight=0.3, brightness_weight=0.2,
+                 features_path=None, meta_path=None):
+        data = np.load(features_path or FEATURES_PATH)
         self.vectors = data["vectors"]  # kept for reference / future CLAP swap
         # REAL extracted chroma from the actual audio (CQT + averaged),
         # not a label-derived ideal profile. This is what makes the search
         # genuinely audio-driven rather than a lookup table dressed as one.
         self.track_chroma_raw = data["chroma"]
-        with open(META_PATH) as f:
+        with open(meta_path or META_PATH) as f:
             self.metadata = json.load(f)
         self.w_chroma, self.w_tempo, self.w_bright = chroma_weight, tempo_weight, brightness_weight
         self.track_tempo = np.array([m["detected_tempo"] for m in self.metadata])
@@ -161,12 +162,17 @@ class SonicSearchEngine:
         results = []
         for idx in top_idx:
             entry = self.metadata[idx]
+            # Report DETECTED values, not ground-truth labels -- these are what the
+            # match was actually scored against, and it's what a real system would
+            # have (ground truth only exists for the synthesized validation set,
+            # not for real tracks like FMA). Falls back to ground-truth root/mode
+            # only if a detected value is somehow missing.
             results.append({
                 "file": entry["file"],
-                "root": entry["root"],
-                "mode": entry["mode"],
-                "bpm": entry["bpm"],
-                "timbre": entry["timbre"],
+                "root": entry.get("detected_root", entry.get("root")),
+                "mode": entry.get("detected_mode", entry.get("mode")),
+                "bpm": entry.get("detected_tempo", entry.get("bpm")),
+                "timbre": entry.get("timbre"),  # only present for the synthesized set
                 "score": round(float(combined[idx]), 4),
             })
         return parsed, results

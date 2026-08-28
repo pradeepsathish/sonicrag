@@ -1,1 +1,8 @@
 BUILDLOG.md
+BUILD_STORY.md
+CITATIONS.md
+
+# Raw downloaded datasets — too large for the repo, kept local only
+data/raw_datasets/
+
+__pycache__/
